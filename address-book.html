@@ -16,15 +16,18 @@
         <div class="col-md-6">
           <h2>Add a contact:</h2>
           <form id="new-contact">
+            <!--First name input-->
             <div class="form-group">
               <label for="new-first-name">First name</label>
               <input type="text" class="form-control" id="new-first-name">
             </div>
+            <!--Last name input-->
             <div class="form-group">
               <label for="new-last-name">Last name</label>
               <input type="text" class="form-control" id="new-last-name">
             </div>
-
+            <!--Form input fields to collect the data for the properties defined in our Address constructor: street, city, and county.
+-->
             <div id="new-addresses">
               <div class="new-address">
                 <div class="form-group">
@@ -41,23 +44,26 @@
                 </div>
               </div>
             </div>
-
+            <!--An "Another Address" button, so our users may add more than one address to a contact.-->
             <span class="btn btn-primary" id="add-address">Another address</span>
 
             <button type="submit" class="btn">Add</button>
           </form>
-
+          <!--Display of contacts-->
           <h2>Contacts:</h2>
+          <!--Where the contacts will be appended as a list-->
           <ul id="contacts">
 
           </ul>
         </div>
-
+        <!--The div where the contact detailes with be shown on the left-->
         <div class="col-md-6">
           <div id="show-contact">
             <h2></h2>
             <p>First name: <span class="first-name"></span></p>
             <p>Last name: <span class="last-name"></span></p>
+            <!--A place to display a contact's addresses in our show-contact div on the right side of the screen.
+-->
             <p>Addresses:</p>
             <ul id="addresses">
 
