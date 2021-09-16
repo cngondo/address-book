@@ -1,7 +1,8 @@
+/*hides the div that shows the contacts at first */
 #show-contact {
   display: none;
 }
-
+/*Makes the elements look clickable*/
 .contact {
   cursor: pointer;
   color: #0088cc;
